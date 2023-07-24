@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>David Zhang - Golang Blockchain Engineer</title>
+  <link rel="icon" href="icon.png" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="The Portfolio of David Zhang" />
+  <!-- webfonts -->
+  <link href="//fonts.googleapis.com/css?family=Asap:400,700,400italic" rel="stylesheet" type="text/css" />
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- webfonts -->
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $("html,body").animate(
+          { scrollTop: $(this.hash).offset().top },
+          1000
+        );
+      });
+    });
+  </script>
+  <!---- start-smoth-scrolling---->
+</head>
+
+<body>
+  <!-- container -->
+  <!-- header -->
+  <div id="home" class="header">
+    <div class="container">
+      <!-- top-hedader -->
+      <div class="top-header">
+        <!-- /logo -->
+        <!--top-nav---->
+        <div class="top-nav">
+          <div class="navigation">
+            <div class="logo">
+              <h1>
+                <a href="index.html"><span>P</span>ORTOFOLIO</a>
+              </h1>
+            </div>
+            <div class="navigation-right">
+              <span class="menu"><img src="images/menu.png" alt=" " /></span>
+              <nav class="link-effect-3" id="link-effect-3">
+                <ul class="nav1 nav nav-wil">
+                  <li class="active">
+                    <a data-hover="Home" href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="About" href="#about">About</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Services" href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Experience" href="#work">Experience</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Education" href="#blogs">Education</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Skills" href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a class="scroll" data-hover="Contact" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- script-for-menu -->
+              <script>
+                $("span.menu").click(function () {
+                  $("ul.nav1").slideToggle(300, function () {
+                    // Animation complete.
+                  });
+                });
+              </script>
+              <!-- /script-for-menu -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!-- /top-hedader -->
+        </div>
+        <div class="banner-info">
+          <div class="col-md-7 header-right">
+            <h1>Hi !</h1>
+            <h6><strong>🚀Golang Blockchain Engineer</strong></h6>
+            <ul class="address">
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>David Zhang</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>NATIONALITY</b></li>
+                  <li>Singaporean American</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>BIRTHDAY</b></li>
+                  <li>1/8/1997</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>LOCATION</b></li>
+                  <li>San Jose, California, US</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>PHONE</b></li>
+                  <li>+1 (415) 937-8101</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li>
+                    <a href="mailto:devalpha18@gmail.com">
+                      devalpha18@gmail.com</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 header-left">
+            <img src="/images/David Zhang.jpg" alt="Profile Picture"/>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about" class="about">
+    <div class="col-md-6 about-left">
+      <div id="owl-demo1" class="owl-carousel owl-carousel2">
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Hi! I'm <span>David Zhang</span></h2>
+            <p>
+              It's easy to find people promising everything and delivering
+              almost nothing. My major strengths are in giving realistic
+              promises, being responsive and responsible, concentrating on
+              business needs and communications. So I am not a pure geek
+              thinking about technology only but, first, a
+              making-things-happen person.
+            </p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>QUALIFICATIONS SUMMARY</h2>
+            <p>
+              As a Golang Blockchain Engineer with 6 years of experience and a passion for clean, efficient code and recognized for skills in data structures, software architecture, and system design. <br />Eager to join a team of experienced developers and help build world-class software products.
+            </p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>QUALIFICATIONS SUMMARY</h2>
+            <p>
+              Specialized in Custom Cryptocurrency and Blockchain based Enterprise solutions with an extensive experience in ICO's, STO's, Customizing Consensus(POS/POW), Crypto Exchange, Wallets and Crypto-Bot Design, Smart Contract development. <br />Also, Experienced in Backend-as-a-Service and Service-oriented Architecture.
+            </p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 about-right"></div>
+    <div class="clearfix"></div>
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: false,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- Feedback -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo3").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: true,
+          pagination: true,
+        });
+      });
+    </script>
+  </div>
+  <!-- /about -->
+  <!-- services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>WHAT I DO</h4>
+        <h3>MY <span>SERVICES</span></h3>
+        <span class="border two"></span>
+      </div>
+      <!-- services-grids -->
+      <div class="wthree_about_right_grids w3l-agile">
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-4 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-pencil"></i>
+            </div>
+          </div>
+          <div class="col-xs-8 wthree_about_right_grid_right">
+            <h4>Front-end Development</h4>
+            <p>
+              I have in-depth knowledge of JavaScript, TypeScript and React, Vue
+              concepts, excellent front-end coding skills, and a good
+              understanding of progressive web applications.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-4 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-cog"></i>
+            </div>
+          </div>
+          <div class="col-xs-8 wthree_about_right_grid_right">
+            <h4>Back-end Development</h4>
+            <p>
+              I am focusing on the development of all server-side logic,
+              definition and maintenance of the central database, and ensuring
+              high performance and responsiveness to requests from the
+              front-end.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-4 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-leaf"></i>
+            </div>
+          </div>
+          <div class="col-xs-8 wthree_about_right_grid_right">
+            <h4>Full-Stack Development</h4>
+            <p>
+              I am responsible for the full software development life cycle,
+              from conception to deployment. I have used an up-to-the-minute
+              tech stack including React and Vue.js on the front end and
+              Golang, Node.js and GraphQL on the back end.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-4 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-gift"></i>
+            </div>
+          </div>
+          <div class="col-xs-8 wthree_about_right_grid_right">
+            <h4>Blockchain Development</h4>
+            <p>
+              I have deep knowledge of blockchain technologies specifically in
+              constructing the decentralized application, NFT minting and
+              marketing, fork & customizing the existing secure smart
+              contracts, implementing trending methods like yield farming,
+              building bridges between networks and etc.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <!-- services-grids -->
+    </div>
+  </div>
+  <!-- services -->
+  <!--work-experience-->
+  <div id="work" class="work">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>WHAT I DID</h4>
+        <h3>MY <span>EXPERIENCE</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="time-main w3l-agile">
+        <div class="col-md-6 year-info">
+          <ul class="year">
+            <li>Feb 2022 - May 2023</li>
+            <li>Jun 2020 - Nov 2021</li>
+            <li>Apr 2019 - Mar 2020</li>
+            <li>Sep 2018 - Mar 2019</li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="col-md-6 timeline">
+          <li>
+            <div class="timeline-badge primary">
+              <i class="glyphicon glyphicon-briefcase"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">
+                  Golang Blockchain Engineer, SyncFab
+                </h4>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Participated to develop Decentralized Exchange ecosystem of ERC-20 based MFG Token as building the multi-exchangeable SushiSwap, UniSwap V2 and V3, KyberSwap MFG smart contracts.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge danger">
+              <i class="glyphicon glyphicon-briefcase"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">
+                  Web3 Infrastructure Developer, Refinable.
+                </h4>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Contributed to the development of Refinable SDK, which is an NPM package that can be added to the project to work with Refinable contracts.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge success">
+              <i class="glyphicon glyphicon-briefcase"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">
+                  Golang Application Developer, Randstad
+                </h4>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Developed and maintained Golang microservices for a large-scale, high-throughput cybersecurity platform with 6 developers in the team.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge pass">
+              <i class="glyphicon glyphicon-briefcase"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">
+                  Golang Developer Intern, Page Personnel
+                </h4>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Worked with a team of 15+ developers to participate a Golang Restful and GraphQL API for the company’s mobile app utilizing Gin, Gorilla MUX, Gqlgen and GORM.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--//work-experience-->
+
+  <!-- portfolio -->
+  <div class="portfolio" id="port">
+    <div class="service-head text-center">
+      <h4>MY WORKS</h4>
+      <h3>MY <span>PORTFOLIO</span></h3>
+      <span class="border"></span>
+    </div>
+    <div class="portfolio-grids">
+      <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $("#horizontalTab").easyResponsiveTabs({
+            type: "default", //Types: default, vertical, accordion
+            width: "auto", //auto or any width like 600px
+            fit: true, // 100% fit in a container
+          });
+        });
+      </script>
+      <div class="sap_tabs">
+        <div id="horizontalTab" style="display: block; width: 100%; margin: 0px">
+          <ul class="resp-tabs-list">
+            <li class="resp-tab-item" aria-controls="tab_item-0" role="tab">
+              <span>ALL</span>
+            </li>
+            <li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
+              <span>WEB</span>
+            </li>
+            <li class="resp-tab-item" aria-controls="tab_item-4" role="tab">
+              <span>BLOCKCHAIN</span>
+            </li>
+          </ul>
+          <div class="resp-tabs-container">
+            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+              <div class="col-md-3 team-gd">
+                <a href="https://refinable.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://syncfab.com/manufacturing-supply-chain-blockchain-smart-payments" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic2.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://moonstartoken.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic3.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://mist.game/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic4.png" alt="" />
+                </a>
+              </div>
+              <div class="clearfix"></div>
+              <!-- </div>
+              <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0"> -->
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://ariswap.co/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic5.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.sphynxnft.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic6.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.trulia.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic7.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.lastminutetravel.com/en/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic8.png" alt="" />
+                </a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.trulia.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic7.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.lastminutetravel.com/en/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic8.png" alt="" />
+                </a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+              <div class="col-md-3 team-gd">
+                <a href="https://refinable.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://syncfab.com/manufacturing-supply-chain-blockchain-smart-payments" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic2.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://moonstartoken.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic3.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd">
+                <a href="https://mist.game/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic4.png" alt="" />
+                </a>
+              </div>
+              <div class="clearfix"></div>
+              <!-- </div>
+              <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0"> -->
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://ariswap.co/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic5.png" alt="" />
+                </a>
+              </div>
+              <div class="col-md-3 team-gd yes_marg">
+                <a href="https://www.sphynxnft.com/" target="_blank" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img
+                    src="images/pic6.png" alt="" />
+                </a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //portfolio -->
+  <!-- top-grids -->
+  <div class="blog" id="blogs">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>EDUCATION</h4>
+        <h3>MY <span>UNIVERSITIY</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-img">
+          <a href="https://www.sutd.edu.sg/" target="_blank">
+            <img src="images/university.png" alt=" " class="img-responsive" /></a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3>
+            <a href="https://www.sutd.edu.sg/" target="_blank">
+              Singapore University of Technology and Design
+            </a>
+          </h3>
+          <ul class="news">
+            <li>
+              <i class="glyphicon glyphicon-user"></i>
+              <a href="#" target="_blank">8,080+
+                students</a>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-tags"></i>
+              <a href="#" target="_blank">More than 70 faculty, 120 Staff</a>
+            </li>
+          </ul>
+          <p>
+            The Singapore University of Technology and Design is a public autonomous university in Singapore. SUTD is established to advance knowledge and nurture technically grounded leaders and innovators to serve societal needs.</br>
+            <b>2015 - 2019・ 4.8/5.0 GPA</b><br/>
+            <b>Bachelor's Degree, Computer Science and Design</b>
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- top-grids -->
+  <!-- /blog-pop-->
+  <!-- //blog-pop-->
+  <div id="skills">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>SKILLS</h4>
+        <h3><span>EXPERIENCED SKILLS </span>I HAVE ARE AS FOLLOWS</h3>
+        <span class="border two"></span>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Blockchain Architecture</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Bitcoin</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">EVM Chains</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 - (440 * 70) / 100); stroke: #a3e607"></circle>
+                </svg>
+                <div class="num">
+                  <h2>70<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Cosmos Blockchain</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 - (440 * 70) / 100); stroke: #a3e607"></circle>
+                </svg>
+                <div class="num">
+                  <h2>70<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Ignite CLI</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">DAO | Defi | Dapp</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">NFTs</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">NFT marketplace</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Chainlink</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Alchemy</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Moralis</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Solidity</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Web3.js | Ethers.js</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 - (440 * 80) / 100); stroke: #b2fc05"></circle>
+                </svg>
+                <div class="num">
+                  <h2>80<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Backend as a Service</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 - (440 * 80) / 100); stroke: #b2fc05"></circle>
+                </svg>
+                <div class="num">
+                  <h2>80<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Service-oriented Architecture</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Restful API | GraphQL</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Golang</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Gin | Gorilla MUX</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Gqlgen</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">GORM</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Node.js | Express.js</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" style="stroke-dashoffset: calc(440 - (440 * 80) / 100); stroke: #b2fc05"></circle>
+                </svg>
+                <div class="num">
+                  <h2>80<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Docker | Kubernetes</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Amazon Web Services (AWS)</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="num">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Firebase</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+  </div>
+  <!-- /header -->
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>CONTACT ME</h4>
+        <h3>GET <span>IN TOUCH WITH ME</span></h3>
+        <span class="border two"></span>
+      </div>
+      <div class="text-center">
+        <br />
+        <br />
+        <div class="contact-section">
+          <a href="mailto:devalpha18@gmail.com"><img src="images/mail-icon.png" width="50" height="50" alt="mail"></a>
+          <a href="https://join.skype.com/invite/u5asgeyg1zr9"><img src="images/skype-icon.png" width="50" height="50"
+              alt="skype"></a>
+          <a href="https://discordapp.com/users/905784106313461781"><img src="images/discord-icon.png" width="50"
+              height="50" alt="discord"></a>
+          <a href="https://t.me/alpha9718"><img src="images/telegram-icon.png" width="50" height="50"
+              alt="telegram"></a>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+  <a href="#home" id="toTop" style="display: block">
+    <span id="toTopHover" style="opacity: 1"> </span></a>
+  <!--start-smooth-scrolling-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+                  var defaults = {
+                      containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                    };
+                  */
+
+      $().UItoTop({ easingType: "easeOutQuart" });
+    });
+  </script>
+  <!--end-smooth-scrolling-->
+  <!-- //for bootstrap working -->
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
